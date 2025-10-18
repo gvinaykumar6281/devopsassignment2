@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/YOUR_USERNAME/DevOps-Assignment-2.git'
+                git branch: 'main', url: 'https://github.com/Yuvakunaal/DevOps-Assignment-2.git'
             }
         }
         
