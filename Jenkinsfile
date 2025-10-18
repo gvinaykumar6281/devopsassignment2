@@ -17,9 +17,9 @@ pipeline {
         stage('Test Application') {
             steps {
                 sh '''
-                /usr/local/bin/docker run -d --name test-app -p 8000:8000 devops-assignment-2-app
+                /usr/local/bin/docker run -d --name test-app -p 8001:8000 devops-assignment-2-app
                 sleep 10
-                curl -f http://localhost:8000 || exit 1
+                curl -f http://localhost:8001 || exit 1
                 /usr/local/bin/docker stop test-app
                 /usr/local/bin/docker rm test-app
                 '''
