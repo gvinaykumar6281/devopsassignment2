@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-assignment-2-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: devops-assignment-2
+  template:
+    metadata:
+      labels:
+        app: devops-assignment-2
+    spec:
+      containers:
+      - name: booking-app
+        image: devops-assignment-2-app:latest
+        ports:
+        - containerPort: 8000
