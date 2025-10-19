@@ -422,8 +422,8 @@ kubectl create secret docker-registry regcred \
 
 **Yuvakunaal**
 
-- GitHub: [@Yuvakunaal](https://github.com/Yuvakunaal)
-- Docker Hub: [yuvakunaal](https://hub.docker.com/u/yuvakunaal)
+- GitHub: <a href="https://github.com/Yuvakunaal" target="_blank">@Yuvakunaal</a>
+- Docker Hub: <a href="https://hub.docker.com/u/yuvakunaal" target="_blank">yuvakunaal</a>
 
 ## 🙏 Acknowledgments
 
