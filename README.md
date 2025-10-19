@@ -18,6 +18,10 @@ This project demonstrates a complete DevOps workflow for a Flask web application
 - Kubernetes orchestration for production deployment
 - Automated testing and deployment stages
 
+## 🌐 About Web Application
+
+This website is a modern Workshop Lab Booking System for an Advanced Machine Learning workshop. Users can view a visual layout of the lab, select and book available seats, and manage their bookings through an intuitive interface. The platform supports booking history, seat selection limits, and VIP seat options. It features responsive design, dark mode, and instant feedback for a seamless user experience. All bookings are confirmed with a unique ticket and can be reviewed or cleared by the user.
+
 ## ✨ Features
 
 - **Flask Web Application**: Lightweight Python web server
