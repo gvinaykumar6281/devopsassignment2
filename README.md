@@ -87,7 +87,7 @@ DevOps-Assignment-2/
 └── __pycache__/               # Python cache (auto-generated)
 ```
 
-## To use this in your systems
+## 💻 To use this in your systems
 
 _Pull the image first_
 
