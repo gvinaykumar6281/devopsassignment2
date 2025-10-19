@@ -103,7 +103,7 @@ docker pull yuvakunaal/devops-assignment-2-app
 docker pull --platform linux/arm64 yuvakunaal/devops-assignment-2-app
 ```
 
-_Run the container_
+_Run the image_
 
 ```bash
 docker run -p 8001:8000 yuvakunaal/devops-assignment-2-app
