@@ -9,7 +9,6 @@
 
 A production-ready Flask web application with complete CI/CD pipeline using Jenkins, Docker, and Kubernetes deployment.
 
-
 ## 🎯 Overview
 
 This project demonstrates a complete DevOps workflow for a Flask web application, including:
@@ -291,6 +290,32 @@ spec:
   replicas: 3 # Change to desired number
 ```
 
+## 📸 Screenshots
+
+### Github Repository
+![Github Repo](screenshots/github-repo.png)
+_Pushed Complete Project to Github Repository_
+
+### Jenkins Pipeline Success
+
+![Jenkins Pipeline](screenshots/jenkins-ci-cd.png)
+_Complete CI/CD pipeline with all stages successful_
+
+### Docker Hub Repository
+
+![Docker Hub](screenshots/dockerhub-image.png)
+_Docker image successfully pushed to Docker Hub registry_
+
+### Kubernetes Deployment
+
+![Kubernetes Pods](screenshots/kubernates-pods.png)
+_Application running in Kubernetes cluster with multiple replicas_
+
+### Application Interface
+
+![Application](screenshots/application-interface.png)
+_Workshop Lab Booking System running in browser_
+
 ## 🧪 Testing
 
 ### Manual Testing
@@ -383,6 +408,7 @@ kubectl create secret docker-registry regcred \
 - Install kubectl on Jenkins agent
 - Update Jenkinsfile with correct kubectl path
 
+
 ## 👤 Author
 
 **Yuvakunaal**
@@ -396,6 +422,5 @@ kubectl create secret docker-registry regcred \
 - Docker for containerization
 - Kubernetes for orchestration
 - Jenkins for CI/CD automation
-
 
 > **⭐ If you find this project helpful, please give it a star!**
