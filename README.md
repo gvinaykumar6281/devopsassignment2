@@ -115,6 +115,11 @@ _(Optional) If you want to run in the background even after closing the terminal
 docker run -d -p 8001:8000 yuvakunaal/devops-assignment-2-app
 ```
 
+_Now open Chrome/browser and type this in search_
+```bash
+http://0.0.0.0:8001/
+```
+
 ## 🚀 Local Development
 
 ### 1. Clone the Repository
