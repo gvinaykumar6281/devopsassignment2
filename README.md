@@ -297,10 +297,12 @@ spec:
 ## 📸 Screenshots
 
 ### Github Repository
+
 ![Github Repo](screenshots/github-repo.png)
 _Pushed Complete Project to Github Repository_
 
 ### Jenkins Pipeline Configure
+
 ![Jenkins Pipeline Configure](screenshots/jenkins-pipeline-configure.png)
 _Full Configuration of Jenkins Pipeline before Running the `build Now`_
 
@@ -415,7 +417,6 @@ kubectl create secret docker-registry regcred \
 
 - Install kubectl on Jenkins agent
 - Update Jenkinsfile with correct kubectl path
-
 
 ## 👤 Author
 
