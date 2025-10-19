@@ -87,6 +87,34 @@ DevOps-Assignment-2/
 └── __pycache__/               # Python cache (auto-generated)
 ```
 
+## To use this in your systems
+
+_Pull the image first_
+
+1. If your system is Mac
+
+```bash
+docker pull yuvakunaal/devops-assignment-2-app
+```
+
+2. If your system is Windows
+
+```bash
+docker pull --platform linux/arm64 yuvakunaal/devops-assignment-2-app
+```
+
+_Run the container_
+
+```bash
+docker run -p 8001:8000 yuvakunaal/devops-assignment-2-app
+```
+
+_(Optional) If you want to run in the background even after closing the terminal :-_
+
+```bash
+docker run -d -p 8001:8000 yuvakunaal/devops-assignment-2-app
+```
+
 ## 🚀 Local Development
 
 ### 1. Clone the Repository
