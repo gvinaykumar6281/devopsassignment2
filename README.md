@@ -300,6 +300,10 @@ spec:
 ![Github Repo](screenshots/github-repo.png)
 _Pushed Complete Project to Github Repository_
 
+### Jenkins Pipeline Configure
+![Jenkins Pipeline Configure](screenshots/jenkins-pipeline-configure.png)
+_Full Configuration of Jenkins Pipeline before Running the `build Now`_
+
 ### Jenkins Pipeline Success
 
 ![Jenkins Pipeline](screenshots/jenkins-ci-cd.png)
